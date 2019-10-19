@@ -34,7 +34,7 @@ int main ()
         strcpy(s, t); // копируется строка в новую память
 
         const int numbCabels = countCabels;
-        int cabels[numbCabels*3]; //numb - количество целых чисел в строке S
+        int cabels[numbCabels*3]; //numbCabels - количество целых чисел в строке S
         istringstream ss(s);
         for(int i = 0; i < numbCabels*3; ++i)
             ss >> cabels[i];
