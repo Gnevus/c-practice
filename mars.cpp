@@ -17,7 +17,7 @@ int main ()
     char *s = new char[strlen(t)]; // выделяется новая память под размер введённой строки
     strcpy(s, t); // копируется строка в новую память
 
-    int N[countStations]; //numb - количество целых чисел в строке S
+    int N[countStations]; //countStations - количество целых чисел в строке S
     istringstream ss(s);
     for(int i = 0; i < countStations; ++i)
         ss >> N[i];
